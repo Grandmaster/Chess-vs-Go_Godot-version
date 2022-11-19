@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/True bench.png-7a6fe279d9fa4cb17eb26730ca836779.stex"
+path="res://.import/Light Square.png-d48b8b9fbf2e4854cba9b62de213bf54.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/True bench.png"
-dest_files=[ "res://.import/True bench.png-7a6fe279d9fa4cb17eb26730ca836779.stex" ]
+source_file="res://images/Light Square.png"
+dest_files=[ "res://.import/Light Square.png-d48b8b9fbf2e4854cba9b62de213bf54.stex" ]
 
 [params]
 

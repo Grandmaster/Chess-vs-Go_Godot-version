@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Melamine-wood-001.png-cfe39118f45b89aa64fd408ca8e66d60.stex"
+path="res://.import/Highlighted Square.png-e8390ff489817d68164e942747ab9bdc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Melamine-wood-001.png"
-dest_files=[ "res://.import/Melamine-wood-001.png-cfe39118f45b89aa64fd408ca8e66d60.stex" ]
+source_file="res://images/Highlighted Square.png"
+dest_files=[ "res://.import/Highlighted Square.png-e8390ff489817d68164e942747ab9bdc.stex" ]
 
 [params]
 

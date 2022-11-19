@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/True game board.png-197b5b8b98052e0a3379082b5a29d979.stex"
+path="res://.import/Dark Square.png-7b49059d5112b7582c0084c627852d18.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/True game board.png"
-dest_files=[ "res://.import/True game board.png-197b5b8b98052e0a3379082b5a29d979.stex" ]
+source_file="res://images/Dark Square.png"
+dest_files=[ "res://.import/Dark Square.png-7b49059d5112b7582c0084c627852d18.stex" ]
 
 [params]
 

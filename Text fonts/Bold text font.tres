@@ -1,7 +1,6 @@
 [gd_resource type="DynamicFont" load_steps=2 format=2]
 
-[ext_resource path="res://Text fonts/CAMBRIAB.TTF" type="DynamicFontData" id=1]
+[ext_resource path="res://Text fonts/ARIALBD.TTF" type="DynamicFontData" id=1]
 
 [resource]
-size = 72
 font_data = ExtResource( 1 )

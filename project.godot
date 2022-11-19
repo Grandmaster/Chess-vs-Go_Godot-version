@@ -8,11 +8,35 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Reference",
+"class": "Board",
+"language": "GDScript",
+"path": "res://Scripts/Board.gd"
+}, {
+"base": "Reference",
+"class": "CorneredSquareBoard",
+"language": "GDScript",
+"path": "res://CorneredSquareBoard.gd"
+} ]
+_global_script_class_icons={
+"Board": "",
+"CorneredSquareBoard": ""
+}
+
 [application]
 
 config/name="Chess_vs_Go"
-run/main_scene="res://Scenes/Title Screen.tscn"
+run/main_scene="res://Title Screen.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=720
+window/size/height=1080
+window/handheld/orientation="portrait"
+window/stretch/mode="2d"
+window/stretch/aspect="expand"
 
 [physics]
 
