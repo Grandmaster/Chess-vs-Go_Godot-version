@@ -1,6 +1,6 @@
 extends Node2D
-var dsquare = preload("res://Scenes/Dark square.tscn")
-var lsquare = preload("res://Scenes/Light square.tscn")
+var dsquare = preload("res://Game/Dark square.tscn")
+var lsquare = preload("res://Game/Light square.tscn")
 var board_size = 8 # dimensions of the square board
 var step = 64 # size of squares in pixels
 var topleft = -step * (board_size / 2)
@@ -10,6 +10,7 @@ var topleftsquare = Vector2(topleft, topleft) # location of top left square
 var board = CorneredSquareBoard.new(board_size) 
 
 func _ready():
+	position = get_viewport_rect().size / 2
 	build_board()
 
 func build_board():
@@ -26,3 +27,5 @@ func build_board():
 			self.add_child(squareinstance)
 			squareinstance.position.x = topleft + (refx * step)
 			squareinstance.position.y = topleft + (refy * step)
+			squareinstance.board_position = Vector3(square.x, square.y, 0)
+			board.piece_board[refx][refy] = squareinstance

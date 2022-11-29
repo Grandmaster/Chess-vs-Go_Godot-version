@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://images/pieces/Bishop - white.png" type="Texture" id=1]
+
+[node name="White Bishop" type="Sprite"]
+scale = Vector2( 0.0555556, 0.0740741 )
+texture = ExtResource( 1 )
+centered = false

@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Game/Black Bench.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Game/White Bench.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Game/Game Board.tscn" type="PackedScene" id=3]
+
+[node name="Game" type="Node"]
+
+[node name="Game Board" parent="." instance=ExtResource( 3 )]
+
+[node name="Black Bench" parent="." instance=ExtResource( 1 )]
+position = Vector2( 176, 0 )
+
+[node name="White Bench" parent="." instance=ExtResource( 2 )]
+position = Vector2( 176, 640 )
